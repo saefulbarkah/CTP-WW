@@ -11,16 +11,21 @@ const puerts_1 = require('puerts'),
 const { VoidThunderFarm } = require('./function/c4-void-thunder');
 const { C4SupportFarm } = require('./function/c4-support-farm');
 const { C3VoidThunderFarm } = require('./function/c3-void-thunder');
+const { C3MoonlightFarm } = require('./function/c3-moonlight-farm');
 
 class ModTpFile {
+  // c4
   static C4_VoidThunderLoop50 = VoidThunderFarm(50);
   static C4_SupportLoop50 = C4SupportFarm(50);
+  // c3
   static C3_VoidThunderFarm = C3VoidThunderFarm();
+  static C3_MoonlightFarm = C3MoonlightFarm();
 
   static CustomTpList = [
     this.C4_VoidThunderLoop50,
-    this.C4_SupportLoop50m,
+    this.C4_SupportLoop50,
     this.C3_VoidThunderFarm,
+    this.C3_MoonlightFarm,
   ];
 }
 exports.ModTpFile = ModTpFile;
