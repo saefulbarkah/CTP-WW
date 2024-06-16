@@ -1,0 +1,34 @@
+2024-06-16 10:32:28 [FModel] [INF] Version 4.4.3.6
+2024-06-16 10:32:28 [FModel] [INF] Windows 10 Pro (64-bit)
+2024-06-16 10:32:28 [FModel] [INF] .NET 8.0.6
+2024-06-16 10:32:28 [FModel] [INF] Culture id-ID
+2024-06-16 10:32:56 [FModel] [INF] Successfully downloaded oodle dll at "D:\Games\_cheats\Wuthering Waves\sources\Output\.data\oo2core_9_win64.dll"
+2024-06-16 10:32:58 [FModel] [INF] Successfully downloaded zlib-ng dll at "D:\Games\_cheats\Wuthering Waves\sources\Output\.data\zlib-ng2.dll"
+2024-06-16 10:32:59 [FModel] [INF] GAME_UE4_26 (DesktopMobile) | Archives: x1 | AES: x0
+2024-06-16 10:32:59 [FModel] [INF] Pak "TPfile.test27.pak": 1 files, mount point: "Client/Content/Aki/JavaScript/Game/Manager/ModFuncs/", version 3 in 00:00:00.0040682
+2024-06-16 10:32:59 [FModel] [INF] Project: client | Mounted: 1/1 | AES: 1/1
+2024-06-16 10:33:00 [FModel] [INF] ["Get"] [OK(200)] 'https://api.fmodel.app/v1/news/4.4.3.6?game=client'
+2024-06-16 10:33:05 [FModel] [ERR] System.IO.FileNotFoundException: Could not find file 'D:\Games\_cheats\Wuthering Waves\sources\Output\.data\avcodec-vgmstream-59.dll'.
+File name: 'D:\Games\_cheats\Wuthering Waves\sources\Output\.data\avcodec-vgmstream-59.dll'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at FModel.ViewModels.ApplicationViewModel.InitVgmStream()
+   at FModel.ViewModels.ApplicationViewModel.InitVgmStream()
+   at FModel.MainWindow.OnLoaded(Object sender, RoutedEventArgs e)
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_0(Object state)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+2024-06-16 10:33:12 [FModel] [INF] ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+2024-06-16 10:33:13 [FModel] [INF] Version 4.4.3.6
+2024-06-16 10:33:13 [FModel] [INF] Windows 10 Pro (64-bit)
+2024-06-16 10:33:13 [FModel] [INF] .NET 8.0.6
+2024-06-16 10:33:13 [FModel] [INF] Culture id-ID
+2024-06-16 10:33:14 [FModel] [INF] GAME_UE4_26 (DesktopMobile) | Archives: x1 | AES: x0
+2024-06-16 10:33:14 [FModel] [INF] Pak "TPfile.test27.pak": 1 files, mount point: "Client/Content/Aki/JavaScript/Game/Manager/ModFuncs/", version 3 in 00:00:00.0042541
+2024-06-16 10:33:14 [FModel] [INF] Project: client | Mounted: 1/1 | AES: 1/1
+2024-06-16 10:33:17 [FModel] [INF] ["Get"] [OK(200)] 'https://api.fmodel.app/v1/news/4.4.3.6?game=client'
+2024-06-16 10:34:32 [FModel] [INF] ModTpFile.js successfully exported
+2024-06-16 10:34:45 [FModel] [INF] ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
