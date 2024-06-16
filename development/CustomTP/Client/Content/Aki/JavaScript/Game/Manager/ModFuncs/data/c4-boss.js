@@ -1,12 +1,12 @@
 const data = {
   Tempest: {
-    name: 'C4Boss 云闪之鳞 Tempest Mephis',
+    name: ' Tempest Mephis',
     x: -31645.041015625,
     y: -37167.08203125,
     z: 21009.14453125,
   },
   Thundering: {
-    name: 'C4Boss 朔雷之鳞 Thundering Mephis',
+    name: ' Thundering Mephis',
     x: -67694.15625,
     y: 31196.609375,
     z: 330.62030029296877,

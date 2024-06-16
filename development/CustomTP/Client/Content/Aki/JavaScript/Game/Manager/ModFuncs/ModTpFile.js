@@ -14,10 +14,8 @@ const { C3VoidThunderFarm } = require('./function/c3-void-thunder');
 const { C3MoonlightFarm } = require('./function/c3-moonlight-farm');
 
 class ModTpFile {
-  // c4
   static C4_VoidThunderLoop50 = VoidThunderFarm(50);
   static C4_SupportLoop50 = C4SupportFarm(50);
-  // c3
   static C3_VoidThunderFarm = C3VoidThunderFarm();
   static C3_MoonlightFarm = C3MoonlightFarm();
 
