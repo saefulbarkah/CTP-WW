@@ -13,22 +13,29 @@ const { C4SupportFarm } = require('./function/c4-support-farm');
 const { C3VoidThunderFarm } = require('./function/c3-void-thunder');
 const { C3MoonlightFarm } = require('./function/c3-moonlight-farm');
 const { ResonanceBeacon, ResonanceNexus } = require('./data/waypoint');
+const { Basic, Advanced, Premium } = require('./data/Chest');
 
 class ModTpFile {
-  static C4_VoidThunderLoop50 = VoidThunderFarm(50);
-  static C4_SupportLoop50 = C4SupportFarm(50);
+  static C4_VoidThunderLoop = VoidThunderFarm(50);
+  static C4_SupportLoop = C4SupportFarm(50);
   static C3_VoidThunderFarm = C3VoidThunderFarm();
   static C3_MoonlightFarm = C3MoonlightFarm();
   static ResonanceBeacon = ResonanceBeacon;
   static ResonanceNexus = ResonanceNexus;
+  static BasicChest = Basic;
+  static AdvancedChest = Advanced;
+  static PremiumChest = Premium;
 
   static CustomTpList = [
-    this.C4_VoidThunderLoop50,
-    this.C4_SupportLoop50,
+    this.C4_VoidThunderLoop,
+    this.C4_SupportLoop,
     this.C3_VoidThunderFarm,
     this.C3_MoonlightFarm,
     this.ResonanceBeacon,
     this.ResonanceNexus,
+    this.BasicChest,
+    this.AdvancedChest,
+    this.PremiumChest,
   ];
 }
 exports.ModTpFile = ModTpFile;
