@@ -25,7 +25,7 @@ const FusionFarm = () => {
       SpectroPrism,
       TrafficIlluminator,
     ].flat(),
-    filename: ' Havoc Set Farm',
+    filename: ' Fusion Set Farm',
   });
 };
 
