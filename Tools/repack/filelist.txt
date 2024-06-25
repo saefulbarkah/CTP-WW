@@ -1,1 +1,1 @@
-"D:\Games\_cheats\Wuthering Waves\development\Main mods\*.*" "..\..\..\*.*" 
+"D:\Games\_cheats\Wuthering Waves\development\CustomTP\*.*" "..\..\..\*.*" 
