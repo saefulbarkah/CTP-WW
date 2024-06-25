@@ -5,6 +5,10 @@ const { GeohideSaurian } = require('./c3/GeohideSaurian');
 const { ChasmGuardian } = require('./c3/ChasmGuardian');
 const { Spearback } = require('./c3/Spearback');
 const { StonewallBracer } = require('./c3/StoneWall');
+const { HavocDreadmane } = require('./c3/HavocDeadMane');
+const { Roseshroom } = require('./c3/RoseshRoom');
+const { Tambourinist } = require('./c3/Tambourinist');
+const { HoochiefCyclone } = require('./c3/HookChief');
 
 module.exports = {
   VioletFeatheredHeron,
@@ -14,4 +18,8 @@ module.exports = {
   ChasmGuardian,
   Spearback,
   StonewallBracer,
+  HavocDreadmane,
+  Roseshroom,
+  Tambourinist,
+  HoochiefCyclone,
 };

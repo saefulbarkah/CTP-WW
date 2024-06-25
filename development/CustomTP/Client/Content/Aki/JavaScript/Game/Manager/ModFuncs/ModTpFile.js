@@ -14,6 +14,8 @@ const { C3VoidThunderFarm } = require('./function/c3-void-thunder');
 const { C3MoonlightFarm } = require('./function/c3-moonlight-farm');
 const { ResonanceBeacon, ResonanceNexus } = require('./data/waypoint');
 const { Basic, Advanced, Premium } = require('./data/Chest');
+const { HavocFarm } = require('./function/farm-echos/Havoc');
+const { FusionFarm } = require('./function/farm-echos/Fusion');
 
 class ModTpFile {
   static C4_VoidThunderLoop = VoidThunderFarm(50);
@@ -25,6 +27,8 @@ class ModTpFile {
   static BasicChest = Basic;
   static AdvancedChest = Advanced;
   static PremiumChest = Premium;
+  static HavocFarm = HavocFarm();
+  static FusionFarm = FusionFarm();
 
   static CustomTpList = [
     this.C4_VoidThunderLoop,
@@ -36,6 +40,8 @@ class ModTpFile {
     this.BasicChest,
     this.AdvancedChest,
     this.PremiumChest,
+    this.HavocFarm,
+    this.FusionFarm,
   ];
 }
 exports.ModTpFile = ModTpFile;

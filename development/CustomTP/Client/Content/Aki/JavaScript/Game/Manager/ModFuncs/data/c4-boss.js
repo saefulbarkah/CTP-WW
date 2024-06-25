@@ -59,6 +59,12 @@ const data = {
     y: 194073.734375,
     z: -18700.931640625,
   },
+  InfernoRider: {
+    name: 'Inferno Rider',
+    x: -145682.828125,
+    y: 208429.609375,
+    z: 609.2417602539063,
+  },
 };
 
 module.exports = data;
